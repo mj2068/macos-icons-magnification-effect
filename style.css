@@ -1,0 +1,39 @@
+:root {
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  /* position: absolute; */
+  /* background-color: #aaa; */
+}
+
+#container {
+  width: 100%;
+  background-color: #aaa;
+  position: fixed;
+  justify-content: center;
+  bottom: 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background-color: #0a0;
+  margin: 0 10px;
+  transition: width 200ms;
+}
+
+.icon:hover {
+  width: 200px;
+  transition: width 200ms;
+  /* transition:  height 200ms; */
+}
+
+.big-icon {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
